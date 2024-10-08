@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8d0fa8e45ce4516f8c64d50bbea1ba57
+class ComposerStaticInitb69d5dec586431dd144fc6805079e199
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
@@ -63,8 +63,15 @@ class ComposerStaticInit8d0fa8e45ce4516f8c64d50bbea1ba57
         'Automattic\\Jetpack\\Composer\\Plugin' => __DIR__ . '/..' . '/automattic/jetpack-composer-plugin/src/class-plugin.php',
         'Automattic\\Jetpack\\Constants' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-constants/src/class-constants.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'QuadLayers\\QLSE\\Api\\Entities\\Settings\\Base' => __DIR__ . '/../..' . '/lib/api/entities/settings/class-base.php',
+        'QuadLayers\\QLSE\\Api\\Entities\\Settings\\Get' => __DIR__ . '/../..' . '/lib/api/entities/settings/class-get.php',
+        'QuadLayers\\QLSE\\Api\\Entities\\Settings\\Post' => __DIR__ . '/../..' . '/lib/api/entities/settings/class-post.php',
+        'QuadLayers\\QLSE\\Api\\Entities\\Settings\\Routes_Library' => __DIR__ . '/../..' . '/lib/api/entities/settings/class-routes-library.php',
+        'QuadLayers\\QLSE\\Api\\Route' => __DIR__ . '/../..' . '/lib/api/interface-route.php',
         'QuadLayers\\QLSE\\Controllers\\Backend' => __DIR__ . '/../..' . '/lib/controllers/class-backend.php',
         'QuadLayers\\QLSE\\Controllers\\Frontend' => __DIR__ . '/../..' . '/lib/controllers/class-frontend.php',
+        'QuadLayers\\QLSE\\Controllers\\Gutenberg' => __DIR__ . '/../..' . '/lib/controllers/class-gutenberg.php',
+        'QuadLayers\\QLSE\\Controllers\\Settings' => __DIR__ . '/../..' . '/lib/controllers/class-settings.php',
         'QuadLayers\\QLSE\\Entity\\Settings' => __DIR__ . '/../..' . '/lib/entity/class-settings.php',
         'QuadLayers\\QLSE\\Helpers' => __DIR__ . '/../..' . '/lib/class-helpers.php',
         'QuadLayers\\QLSE\\Models\\Settings' => __DIR__ . '/../..' . '/lib/models/class-settings.php',
@@ -108,9 +115,9 @@ class ComposerStaticInit8d0fa8e45ce4516f8c64d50bbea1ba57
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8d0fa8e45ce4516f8c64d50bbea1ba57::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8d0fa8e45ce4516f8c64d50bbea1ba57::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit8d0fa8e45ce4516f8c64d50bbea1ba57::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb69d5dec586431dd144fc6805079e199::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb69d5dec586431dd144fc6805079e199::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb69d5dec586431dd144fc6805079e199::$classMap;
 
         }, null, ClassLoader::class);
     }
