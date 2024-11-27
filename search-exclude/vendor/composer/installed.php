@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'quadlayers/search-exclude',
-        'pretty_version' => 'v2.1.8',
-        'version' => '2.1.8.0',
-        'reference' => '3929a079868d77fd9af42a00ff3e91597cd870f7',
+        'pretty_version' => 'v2.1.9',
+        'version' => '2.1.9.0',
+        'reference' => '6bd8c760d32df802902dc4dce5fa2093fc4f7e25',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -49,9 +49,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/search-exclude' => array(
-            'pretty_version' => 'v2.1.8',
-            'version' => '2.1.8.0',
-            'reference' => '3929a079868d77fd9af42a00ff3e91597cd870f7',
+            'pretty_version' => 'v2.1.9',
+            'version' => '2.1.9.0',
+            'reference' => '6bd8c760d32df802902dc4dce5fa2093fc4f7e25',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -67,9 +67,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/wp-notice-plugin-promote' => array(
-            'pretty_version' => '1.1.6',
-            'version' => '1.1.6.0',
-            'reference' => 'b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8',
+            'pretty_version' => '1.1.7',
+            'version' => '1.1.7.0',
+            'reference' => 'e947d41c606f1ab679518d87f2b51230a9d74c92',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/quadlayers/wp-notice-plugin-promote',
             'aliases' => array(),

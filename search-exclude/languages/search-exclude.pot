@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Search Exclude 2.1.8\n"
+"Project-Id-Version: Search Exclude 2.1.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-search-exclude\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-26T16:04:33+00:00\n"
+"POT-Creation-Date: 2024-11-27T21:52:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: search-exclude\n"
@@ -40,25 +40,25 @@ msgstr ""
 msgid "https://quadlayers.com"
 msgstr ""
 
-#: lib/controllers/class-backend.php:102
+#: lib/controllers/class-backend.php:106
 msgid "%d item updated."
 msgid_plural "%d items updated."
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/controllers/class-backend.php:148
+#: lib/controllers/class-backend.php:152
 msgid "Hide from Search"
 msgstr ""
 
-#: lib/controllers/class-backend.php:149
+#: lib/controllers/class-backend.php:153
 msgid "Show in Search"
 msgstr ""
 
-#: lib/controllers/class-backend.php:275
+#: lib/controllers/class-backend.php:284
 msgid "Search Excluded"
 msgstr ""
 
-#: lib/controllers/class-backend.php:346
+#: lib/controllers/class-backend.php:355
 msgid "Not enough permissions"
 msgstr ""
 
@@ -78,6 +78,7 @@ msgstr ""
 msgid "Visible"
 msgstr ""
 
+#: lib/views/metabox.php:5
 #: lib/views/quick-edit.php:7
 #: build/gutenberg/js/index.js:1
 msgid "Exclude from Search Results"
