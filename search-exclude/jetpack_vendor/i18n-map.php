@@ -30,7 +30,7 @@ return array(
     ),
     'wp-plugin-table-links' => array(
       'path' => 'jetpack_vendor/quadlayers/wp-plugin-table-links',
-      'ver' => '1.0.7',
+      'ver' => '1.0.8',
     ),
   ),
 );
