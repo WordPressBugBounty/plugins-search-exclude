@@ -4,8 +4,8 @@ Donate link: https://quadlayers.com/
 Tags: search exclude, search, wordpress search, exclude post, exclude page
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.8
-Stable tag: 2.5.7
+Tested up to: 6.9
+Stable tag: 2.6.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -98,8 +98,21 @@ function filterForProducts($exclude, $query)
 
 == Changelog ==
 
+= 2.6.1 =
+* fix: REST API permission error for Editors in Block Editor
+
+= 2.6.0 =
+* WordPress compatibility
+
+= 2.5.9 =
+* fix: update dependencies 
+
+= 2.5.8 =
+* fix: security issues
+
 = 2.5.7 =
 * fix: php 7.2 errors
+
 = 2.5.6 =
 * fix: update dependencies 
 
