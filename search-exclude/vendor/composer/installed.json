@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "automattic/jetpack-assets",
-            "version": "v4.3.25",
-            "version_normalized": "4.3.25.0",
+            "version": "v4.3.26",
+            "version_normalized": "4.3.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-assets.git",
-                "reference": "8c077f3760020b2ff18afc68aee780f5dbc53463"
+                "reference": "56c345af22f693ba635a6e381dab78188fa0713c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-assets/zipball/8c077f3760020b2ff18afc68aee780f5dbc53463",
-                "reference": "8c077f3760020b2ff18afc68aee780f5dbc53463",
+                "url": "https://api.github.com/repos/Automattic/jetpack-assets/zipball/56c345af22f693ba635a6e381dab78188fa0713c",
+                "reference": "56c345af22f693ba635a6e381dab78188fa0713c",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
-            "time": "2026-02-18T12:31:59+00:00",
+            "time": "2026-02-26T16:00:18+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -58,7 +58,7 @@
             ],
             "description": "Asset management utilities for Jetpack ecosystem packages",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-assets/tree/v4.3.25"
+                "source": "https://github.com/Automattic/jetpack-assets/tree/v4.3.26"
             },
             "install-path": "../../jetpack_vendor/automattic/jetpack-assets"
         },
